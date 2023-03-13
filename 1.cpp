@@ -1,4 +1,4 @@
-//Задача 2b
+//Вариант6 задача 2b
 
 #include <iostream>
 #include <fstream>
