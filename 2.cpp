@@ -1,4 +1,4 @@
-
+//Вариант 6 задача 3f
 
 #include <iostream>
 #include <string>
