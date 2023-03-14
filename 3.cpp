@@ -40,7 +40,7 @@ Student get_students_data(auto *i)
     return student_variable;
 }
 
-void wrute_student_data_to_file(std::vector<Student> &students, auto const *students_count)
+void write_student_data_to_file(std::vector<Student> &students, auto const *students_count)
 {
     std::ofstream out("out.txt", std::ios::app);
     for(auto i = 0; i<*students_count; i++)
@@ -64,5 +64,5 @@ int main() {
     auto const students_count = get_students_count();
     std::vector<Student> students;
     write_students_data_to_vector(students, &students_count);
-    wrute_student_data_to_file(students, &students_count);
+    write_student_data_to_file(students, &students_count);
 }
